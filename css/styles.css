@@ -1,0 +1,117 @@
+body{
+    margin: 0%;
+    padding: 50px 0;
+    background-color: rgba(72, 77, 80, 0.829);
+color: rgb(255, 255, 255);
+
+}
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container *{
+box-sizing: border-box;
+}
+.flex-outer{
+    max-width: 800px;
+    margin: 0% auto
+    
+}
+.flex-outer>li{
+    margin-bottom: 20px 
+}
+.flex-outer li,
+.flex-inner li {
+    padding:  0px;
+flex-wrap: wrap;
+align-items: center;
+display: flex
+}
+.flex-outer>li>label,
+.flex-outer li p{
+    flex:  1 0 120px;
+    max-width: 220px;
+}
+.flex-outer, 
+.flex-inner{
+    list-style-type:none;
+    align-items: center
+}
+.flex-outer li, 
+.flex-inner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center
+}
+.flex-inner{
+    padding: 0 8px;
+    justify-content: space-between;
+
+}
+.flex-outer li label, 
+.flex-inner li p{
+    padding: 8px;
+    font-weight: 400;
+    letter-spacing:  0,5px;
+    text-transform: uppercase;
+} 
+
+.flex-outer li button{
+    margin-left: auto;
+padding: 8px 16px ;
+background: rgb(84, 77, 92);
+color: blanchedalmond;
+border-radius: 50px;
+}
+.flex-outer li textarea,input{
+    padding: 10px;
+    border:none;
+  margin: 10px auto
+}
+
+.flex-outer li textarea{
+    height: 80px;
+}
+
+[ type="text"],
+[ type="email"],
+[ type="tel"], 
+.flex-outer li textarea{
+    width: 60%;
+    
+}
+
+
+.flex-inner>li>label+*
+.flex-outer{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
